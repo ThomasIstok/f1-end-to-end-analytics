@@ -1,0 +1,32 @@
+# Virtuální prostředí
+.venv/
+venv/
+env/
+
+# Data pipeline výstupy
+data/
+*.duckdb
+*.duckdb.wal
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Konfigurace prostředí
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# dbt
+f1_dbt/target/
+f1_dbt/dbt_packages/
+f1_dbt/logs/

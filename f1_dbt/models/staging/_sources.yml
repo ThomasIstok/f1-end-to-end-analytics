@@ -1,0 +1,29 @@
+# Definition of external sources - Silver Parquet files.
+# dbt loads data directly from Parquet files using DuckDB read_parquet().
+
+version: 2
+
+sources:
+  - name: silver
+    description: "Cleaned data from Silver layer (Parquet files)"
+    meta:
+      external_location: "../data/silver/{name}.parquet"
+    tables:
+      - name: csv_drivers
+        description: "Historical drivers data (Kaggle/Ergast)"
+      - name: csv_circuits
+        description: "Historical circuits data (Kaggle/Ergast)"
+      - name: csv_constructors
+        description: "Historical constructors/teams data (Kaggle/Ergast)"
+      - name: csv_races
+        description: "Historical races data (Kaggle/Ergast)"
+      - name: csv_results
+        description: "Historical race results data (Kaggle/Ergast)"
+      - name: api_sessions
+        description: "Sessions data from OpenF1 API (season 2024)"
+      - name: api_laps
+        description: "Laps data from OpenF1 API (Bahrain GP 2024)"
+      - name: api_pit
+        description: "Pit stop data from OpenF1 API (Bahrain GP 2024)"
+      - name: api_drivers
+        description: "Driver data from OpenF1 API (Bahrain GP 2024)"

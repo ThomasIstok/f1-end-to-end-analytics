@@ -1,0 +1,9 @@
+# Profile for local connection to DuckDB database.
+# The database path is relative to the root of the repository.
+
+f1_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../f1_data.duckdb

@@ -1,0 +1,10 @@
+# F1 Analytics – závislosti projektu
+# Verze jsou zafixovány pro reprodukovatelnost a bezpečnost.
+
+pandas==3.0.1
+requests==2.32.5
+pyarrow==23.0.1
+duckdb==1.5.0
+dbt-core==1.11.7
+dbt-duckdb==1.10.1
+python-dotenv==1.2.2

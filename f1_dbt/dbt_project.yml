@@ -1,0 +1,25 @@
+# dbt project for F1 Analytics - Gold layer (Star Schema)
+# This project transforms Silver Parquet data into a dimensional model in DuckDB.
+
+name: 'f1_dbt'
+version: '1.0.0'
+
+profile: 'f1_dbt'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  f1_dbt:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
