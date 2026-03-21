@@ -18,17 +18,17 @@ A complete local data pipeline built upon the "Modern Data Stack". It extracts l
 
 ```mermaid
 graph LR
-    subgraph Data Sources
+    subgraph Sources [Data Sources]
         API[OpenF1 API]
         CSV[Kaggle CSV]
     end
 
-    subgraph Data Lake (Local)
+    subgraph Lake [Data Lake Local]
         Bronze[Bronze Layer<br/>Raw Parquet]
         Silver[Silver Layer<br/>Clean Parquet]
     end
     
-    subgraph Analytics (DuckDB)
+    subgraph Analytics [DuckDB Analytics]
         Gold[(Gold Layer<br/>f1_data.duckdb)]
     end
 
