@@ -1,5 +1,8 @@
 # 🏎️ F1 Analytics Pipeline 
 
+> **🤖 Postaveno pomocí "Vibecodingu"**  
+> Tento projekt vznikl přístupem tzv. *vibecodingu* (kompletní programování s pomocí AI). V procesu jsem figuroval striktně v roli **hlavního architekta** – navrhoval jsem Medallion architekturu (Bronze ➔ Silver ➔ Gold), vybíral použité technologie a definoval datový model (Star Schema) pro Power BI. Samotné psaní kódu obstarala výhradně umělá inteligence na základě mého přesného zadání. Projekt tak ukazuje, jak efektivně lze dnes stavět komplexní datová řešení.
+
 Kompletní lokální datová pipeline postavená na nejmodernějším "Modern Data Stacku". Stahuje živá data F1 a historické výsledky, transformuje je přes Medallion architekturu (Bronze ➔ Silver ➔ Gold) a buduje plně optimalizovaný dimenzionální Star Schema model pro Power BI.
 
 *Pro anglickou verzi, prosím přejděte na [README_EN.md](README_EN.md).*

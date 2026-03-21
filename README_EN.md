@@ -1,5 +1,8 @@
 # 🏎️ F1 Analytics Pipeline 
 
+> **🤖 Built with "Vibecoding"**  
+> This project was developed entirely through *vibecoding* (AI-generated coding). I served strictly as the **Lead Architect**—designing the Medallion architecture (Bronze ➔ Silver ➔ Gold), driving technology choices, and defining the exact data model (Star Schema) for Power BI. The actual coding and implementation was executed completely by AI based on my specifications. This project demonstrates how effectively complex data solutions can be built today.
+
 A complete local data pipeline built upon the "Modern Data Stack". It extracts live F1 data alongside historical results, transforming them via Medallion architecture (Bronze ➔ Silver ➔ Gold), and establishes a fully optimized dimensional Star Schema for Power BI.
 
 *For the Czech version, please see [README.md](README.md).*
