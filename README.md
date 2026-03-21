@@ -7,7 +7,7 @@ Kompletní lokální datová pipeline postavená na nejmodernějším "Modern Da
 ## 🌟 Architektura a Technologie
 
 - **Zdroje dat:**
-  - **[OpenF1 API](https://openf1.org/):** Živá data ze sezóny 2024 (Sessions, Laps, Pit Stops, Telemetrie).
+  - **[OpenF1 API](https://openf1.org/):** Živá data ze sezóny 2025 (Sessions, Laps, Pit Stops, Telemetrie).
   - **Kaggle F1 Dataset (Ergast):** Historická data a dimenze (Okruhy, Jezdci, Výsledky).
 - **Zpracování (Python 3.11+):**
   - Efektivní Extract & Load s využitím `requests.Session()` pro API a `DuckDB` streaming pro CSV.
