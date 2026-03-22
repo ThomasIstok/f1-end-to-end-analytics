@@ -1,1 +1,1 @@
-# Balíček src – moduly datové pipeline F1 Analytics
+# src package - F1 Analytics data pipeline modules

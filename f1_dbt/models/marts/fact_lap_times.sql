@@ -1,4 +1,4 @@
--- Fact table of lap times from OpenF1 API (Bahrain GP 2024).
+-- Fact table of lap times from OpenF1 API (Bahrain GP 2025).
 -- Each row = one lap by one driver including sector times.
 
 with laps as (
@@ -19,7 +19,7 @@ select
     l.session_key,
     l.meeting_key,
     l.driver_number,
-
+mys
     -- Enrichment with driver name
     ad.full_name       as driver_name,
     ad.name_acronym    as driver_code,

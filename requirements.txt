@@ -1,5 +1,5 @@
-# F1 Analytics – závislosti projektu
-# Verze jsou zafixovány pro reprodukovatelnost a bezpečnost.
+# F1 Analytics - project dependencies
+# Versions are pinned for reproducibility and security.
 
 pandas==3.0.1
 requests==2.32.5
